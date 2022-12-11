@@ -4,11 +4,31 @@
         <title>Portfolio</title>
         <link rel="stylesheet" href="../css/bootstrap.min.css"/>
         <link href="../stylesheets/navbar.css" rel="stylesheet">
+        <link href="../stylesheets/standings.css" rel="stylesheet">
       </head>
     <body class="position-relative" data-bs-spy="scroll">
       <%- include('./partials/navbar.ejs') %> 
-      <section class="row grid">
-        <p>Hello standings!</p>
+      <section>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Place</th>
+                <th scope="col">Team</th>
+                <th scope="col">Points</th>
+                <th scope="col">Goals Difference</th>
+              </tr>
+            </thead>
+            <tbody>
+                <% standings.forEach(function(team){ %>
+                    <tr>
+                        <th scope="row"><%=team.position%></th>
+                        <td><%=team.team_id%></td>
+                        <td><%=team.points%></td>
+                        <td><%=team.goals_diff%></td>
+                    </tr>
+                <% });%>
+            </tbody>
+        </table>
       </section>
       <%- include('./partials/scripts.ejs') %>            
     </body>

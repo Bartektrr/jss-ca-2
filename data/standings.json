@@ -1,0 +1,142 @@
+[
+    {
+      "team_id": 12400,
+      "position": 1,
+      "points": 80,
+      "result": "Champions League",
+      "goals_diff": 59
+    },
+    {
+      "team_id": 2509,
+      "position": 2,
+      "points": 79,
+      "result": "Champions League",
+      "goals_diff": 63
+    },
+    {
+      "team_id": 2524,
+      "position": 3,
+      "points": 66,
+      "result": "Champions League",
+      "goals_diff": 40
+    },
+    {
+      "team_id": 2522,
+      "position": 4,
+      "points": 60,
+      "result": "Champions League",
+      "goals_diff": 12
+    },
+    {
+      "team_id": 12295,
+      "position": 5,
+      "points": 58,
+      "result": "UEFA Europa League",
+      "goals_diff": 18
+    },
+    {
+      "team_id": 2523,
+      "position": 6,
+      "points": 55,
+      "result": "UEFA Europa League",
+      "goals_diff": 2
+    },
+    {
+      "team_id": 12401,
+      "position": 7,
+      "points": 52,
+      "result": "Conference League Qualification",
+      "goals_diff": 8
+    },
+    {
+      "team_id": 850,
+      "position": 8,
+      "points": 49,
+      "result": null,
+      "goals_diff": 4
+    },
+    {
+      "team_id": 849,
+      "position": 9,
+      "points": 43,
+      "result": null,
+      "goals_diff": -15
+    },
+    {
+      "team_id": 12424,
+      "position": 10,
+      "points": 42,
+      "result": null,
+      "goals_diff": -4
+    },
+    {
+      "team_id": 2518,
+      "position": 11,
+      "points": 41,
+      "result": null,
+      "goals_diff": -11
+    },
+    {
+      "team_id": 2537,
+      "position": 12,
+      "points": 40,
+      "result": null,
+      "goals_diff": -8
+    },
+    {
+      "team_id": 12423,
+      "position": 13,
+      "points": 40,
+      "result": null,
+      "goals_diff": -16
+    },
+    {
+      "team_id": 2515,
+      "position": 14,
+      "points": 38,
+      "result": null,
+      "goals_diff": 2
+    },
+    {
+      "team_id": 2520,
+      "position": 15,
+      "points": 37,
+      "result": null,
+      "goals_diff": -4
+    },
+    {
+      "team_id": 2546,
+      "position": 16,
+      "points": 34,
+      "result": null,
+      "goals_diff": -30
+    },
+    {
+      "team_id": 2513,
+      "position": 17,
+      "points": 31,
+      "result": null,
+      "goals_diff": -16
+    },
+    {
+      "team_id": 2516,
+      "position": 18,
+      "points": 29,
+      "result": "Relegation",
+      "goals_diff": -21
+    },
+    {
+      "team_id": 2517,
+      "position": 19,
+      "points": 22,
+      "result": "Relegation",
+      "goals_diff": -36
+    },
+    {
+      "team_id": 2510,
+      "position": 20,
+      "points": 21,
+      "result": "Relegation",
+      "goals_diff": -47
+    }
+  ]
