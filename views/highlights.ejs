@@ -7,7 +7,16 @@
       </head>
     <body class="position-relative" data-bs-spy="scroll">
       <%- include('./partials/navbar.ejs') %> 
-      <p>Hello highlights!</p>
+      <div class="row grid">
+        <% highlights.forEach(function(highlight){ %>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="text-center">
+              <img class="mb-3" src="<%='./images/'+highlight.name%>" alt="<%=highlight.alt%>" style="width:100%">
+              <h4><%=highlight.header%></h4>
+            </div>
+          </div>  
+        <% });%>
+      </div>
       <%- include('./partials/scripts.ejs') %>            
     </body>
 </html>
