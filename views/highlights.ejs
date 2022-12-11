@@ -7,7 +7,7 @@
       </head>
     <body class="position-relative" data-bs-spy="scroll">
       <%- include('./partials/navbar.ejs') %> 
-      <div class="row grid">
+      <section class="row grid">
         <% highlights.forEach(function(highlight){ %>
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="text-center">
@@ -16,7 +16,7 @@
             </div>
           </div>  
         <% });%>
-      </div>
+      </section>
       <%- include('./partials/scripts.ejs') %>            
     </body>
 </html>
